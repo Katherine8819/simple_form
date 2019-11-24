@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+a,
+button {
+  transition: all 0.4s ease-in;
+}
+
+.contacts {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contacts__input,
+select {
+  border: 1px solid #c6c9cc;
+  border-radius: 7px;
+  display: block;
+  width: 350px;
+  padding: 10px;
+  outline: none;
+}
+
+select {
+  width: 75px;
+  color: black;
+}
+
+.contacts__label {
+  display: block;
+  color: #648880;
+  margin: 30px 0 10px 0;
+}
+
+.btn {
+  border: 1px solid #648880;
+  background-color: #648880;
+  border-radius: 7px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  color: #648880;
+  background-color: #fff;
+}

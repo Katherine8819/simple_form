@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Form</title>
+  </head>
+  <body>
+    <form action="" method="POST" name="contacts" class="contacts">
+      <label class="contacts__label" for="fullname">Name</label>
+      <input
+        class="contacts__input"
+        type="text"
+        name="fullname"
+        id="fullname"
+        placeholder="Full Name"
+        required
+      />
+
+      <label class="contacts__label" for="email">Email</label>
+      <input
+        class="contacts__input"
+        name="email"
+        type="email"
+        id="email"
+        placeholder="Email address"
+        required
+      />
+
+      <p class="contacts__label">Number of Passes</p>
+      <select name="passes" id="passes">
+        <option selected value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <label class="contacts__label" for="comments">Comments</label>
+      <textarea
+        class="contacts__input"
+        name="comments"
+        id="comments"
+        rows="5"
+        required
+      ></textarea>
+
+      <button id="contactsSubmit" type="submit" class="btn">
+        Purchase
+      </button>
+    </form>
+  </body>
+</html>
